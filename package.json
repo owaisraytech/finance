@@ -1,2 +1,9 @@
-{ "name": "vida-calc", "type": "module", "private": true,
-  "scripts": { "test": "node --test", "start": "npx serve ." } }
+{
+  "name": "vida-calc",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "start": "node init && npx serve ."
+  }
+}
